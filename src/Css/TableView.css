@@ -1,0 +1,50 @@
+table {
+    text-align: center;
+    border-collapse: collapse;
+}
+
+.table-responsive {
+    overflow: auto;
+}
+
+.full-page {
+    height: 92vh;
+}
+
+.table-responsive .default {
+    border-color: #dee2e6;
+}
+
+.table-responsive .default tbody tr:nth-child(even) {
+    background-color: #f1f1f6;
+}
+
+.table-responsive .default tbody tr:nth-child(odd) {
+    background-color: #8FBDD3;
+}
+
+.table-responsive .default thead th {
+    background-color: #dee2e6;
+}
+
+.table-responsive thead th {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    box-shadow: 1px 1px inset;
+    border: none;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
+.table-responsive thead th:last-child {
+    box-shadow: 1px 1px inset, -1px 0 inset;
+}
+
+.table-responsive thead {
+    border: none;
+}
+
+.table-responsive thead tr {
+    border: none;
+}
